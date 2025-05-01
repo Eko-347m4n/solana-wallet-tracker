@@ -3,6 +3,7 @@ use solana_sdk::pubkey::Pubkey;
 use dotenv::dotenv;
 use std::env;
 use std::error::Error;
+use std::str::FromStr;
 
 /// Fungsi utama: jalankan CLI
 fn main() -> Result<(), Box<dyn Error>> {
